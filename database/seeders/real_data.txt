@@ -1,0 +1,251 @@
+No Transaksi	Tanggal	Jam	Nama Menu	Kategori Menu	Qty	Harga Satuan	Total	Pembayaran	Shift
+T-163	25/1/26	20.11	Tahu Walik	Makanan	1	Rp10.000,00	Rp20.000,00	Cash	Malam
+T-163	25/1/26	20.11	Jeniper Dingin	Minuman	1	Rp10.000,00	Rp20.000,00	Cash	Malam
+T-180	27/1/26	20.01	Sanger Dingin	Minuman	2	Rp30.000,00	Rp60.000,00	Cash	Malam
+T-180	27/1/26	20.01	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp60.000,00	Cash	Malam
+T-180	27/1/26	20.01	Coffe Bir	Minuman	1	Rp15.000,00	Rp60.000,00	Cash	Malam
+T-176	26/1/26	17.20	Jeniper Dingin	Minuman	2	Rp20.000,00	Rp116.000,00	Qris	Siang
+T-176	26/1/26	17.20	Taro Dingin	Minuman	1	Rp15.000,00	Rp116.000,00	Qris	Siang
+T-176	26/1/26	17.20	Taro Dingin	Minuman	1	Rp15.000,00	Rp116.000,00	Qris	Siang
+T-176	26/1/26	17.20	Matcha Dingin	Minuman	1	Rp15.000,00	Rp116.000,00	Qris	Siang
+T-176	26/1/26	17.20	Americano Dingin	Minuman	1	Rp15.000,00	Rp116.000,00	Qris	Siang
+T-176	26/1/26	17.20	Sanger Dingin	Minuman	1	Rp15.000,00	Rp116.000,00	Qris	Siang
+T-176	26/1/26	17.20	Straca	Minuman	2	Rp36.000,00	Rp116.000,00	Qris	Siang
+T-129	23/1/26	22.36	Coffe Latte Dingin	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-132	23/1/26	23.01	Tahu Walik	Makanan	2	Rp20.000,00	Rp20.000,00	Cash	Malam
+T-177	27/1/26	16.59	Sanger Dingin	Minuman	1	Rp15.000,00	Rp38.000,00	Cash	Siang
+T-177	27/1/26	16.59	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp38.000,00	Cash	Siang
+T-177	27/1/26	16.59	Es Teh	Minuman	1	Rp8.000,00	Rp38.000,00	Cash	Siang
+T-189	27/1/26	22.05	Es Kopi Hazelnut	Minuman	1	Rp18.000,00	Rp33.000,00	Cash	Siang
+T-189	27/1/26	22.05	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp33.000,00	Cash	Siang
+T-158	25/1/26	18.00	Es Kopi Hazelnut	Minuman	1	Rp18.000,00	Rp18.000,00	Cash	Siang
+T-144	25/1/26	22.01	Japaness	Minuman	1	Rp20.000,00	Rp28.000,00	Cash	Malam
+T-144	25/1/26	22.01	Es Teh	Minuman	1	Rp8.000,00	Rp28.000,00	Cash	Malam
+T-139	24/1/26	20.10	Sanger Dingin	Minuman	2	Rp30.000,00	Rp66.000,00	Cash	Malam
+T-139	24/1/26	20.10	The Susu Dingin	Minuman	3	Rp36.000,00	Rp66.000,00	Cash	Malam
+T-151	24/1/26	23.23	Coffe Bir	Minuman	2	Rp30.000,00	Rp30.000,00	Qris	Malam
+T-148	24/1/26	22.53	Coffe Bir	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-151	24/1/26	23.22	Coffe Bir	Minuman	2	Rp30.000,00	Rp15.000,00	Cash	Malam
+T-155	24/1/26	23.44	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp75.000,00	Cash	Malam
+T-155	24/1/26	23.44	Coffe Bir	Minuman	4	Rp60.000,00	Rp75.000,00	Cash	Malam
+T-144	24/1/26	22.01	Japaness	Minuman	1	Rp20.000,00	Rp28.000,00	Qris	Malam
+T-144	24/1/26	22.01	Es Teh	Minuman	1	Rp8.000,00	Rp28.000,00	Qris	Malam
+T-154	24/1/26	23.35	Coffe Bir	Minuman	1	Rp15.000,00	Rp30.000,00	Qris	Malam
+T-154	24/1/26	23.35	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp30.000,00	Qris	Malam
+T-144	24/1/26	22.01	Japaness	Minuman	1	Rp20.000,00	Rp20.000,00	Cash	Malam
+T-150	24/1/26	23.03	Coffe Bir	Minuman	2	Rp30.000,00	Rp40.000,00	Cash	Malam
+T-150	24/1/26	23.03	The Susu Dingin	Minuman	1	Rp10.000,00	Rp40.000,00	Cash	Malam
+T-142	24/1/26	21.14	Sanger	Minuman	2	Rp13.000,00	Rp26.000,00	Cash	Malam
+T-60	22/1/26	15.40	Es Teh	Minuman	1	Rp8.000,00	Rp23.000,00	Qris	Siang
+T-60	22/1/26	15.40	Matcha Dingin	Minuman	1	Rp15.000,00	Rp23.000,00	Qris	Siang
+T-61	22/1/26	15.45	Lychee Tea	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Siang
+T-81	22/1/26	21.31	Matcha Dingin	Minuman	1	Rp15.000,00	Rp33.000,00	Cash	Malam
+T-81	22/1/26	21.31	Coffe Caramel Dingin	Minuman	1	Rp18.000,00	Rp33.000,00	Cash	Malam
+T-82	22/1/26	21.34	Tahu Walik	Makanan	1	Rp10.000,00	Rp10.000,00	Cash	Malam
+T-76	22/1/26	21.34	Jeniper Dingin	Minuman	2	Rp10.000,00	Rp20.000,00	Cash	Malam
+T-73	22/1/26	20.48	Coffer bir	Minuman	2	Rp30.000,00	Rp60.000,00	Cash	Malam
+T-73	22/1/26	20.48	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp60.000,00	Cash	Malam
+T-73	22/1/26	20.48	Mix Plate	Makanan	1	Rp15.000,00	Rp60.000,00	Cash	Malam
+T-74	22/1/26	20.49	Lemon Tea	Minuman	1	Rp8.000,00	Rp8.000,00	Qris	Malam
+T-71	22/1/26	18.15	Vietnam Drip	Minuman	1	Rp12.000,00	Rp12.000,00	Cash	Malam
+T-72	22/1/26	20.46	Sanger Dingin	Minuman	2	Rp15.000,00	Rp30.000,00	Cash	Malam
+T-67	22/1/26	16.32	The Susu	Minuman	1	Rp10.000,00	Rp10.000,00	Cash	Siang
+T-85	22/1/26	22.08	Coffe Bir	Minuman	1	Rp15.000,00	Rp27.000,00	Qris	Malam
+T-85	22/1/26	22.08	Espresso	Minuman	1	Rp12.000,00	Rp27.000,00	Qris	Malam
+T-150	24/1/26	23.03	Coffe Bir	Minuman	2	Rp30.000,00	Rp40.000,00	Cash	Malam
+T-150	24/1/26	23.03	Teh Susu	Minuman	1	Rp10.000,00	Rp40.000,00	Cash	Malam
+T-159	25/1/26	00.37	Jeniper Dingin	Minuman	1	Rp10.000,00	Rp35.000,00	Cash	Malam
+T-159	25/1/26	00.37	Tahu Walik	Makanan	1	Rp10.000,00	Rp35.000,00	Cash	Malam
+T-159	25/1/26	00.37	Americano Dingin	Minuman	1	Rp15.000,00	Rp35.000,00	Cash	Malam
+T-130	23/1/26	22.37	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-190	2026-01-29	19.15	Es Kopi Hazelnut	Minuman	2	Rp18.000,00	Rp44.000,00	Cash	Malam
+T-190	2026-01-29	19.15	Es Teh	Minuman	1	Rp8.000,00	Rp44.000,00	Cash	Malam
+T-191	2026-01-29	16.13	Americano Dingin	Minuman	1	Rp15.000,00	Rp30.000,00	Cash	Siang
+T-191	2026-01-29	16.13	Matcha Dingin	Minuman	1	Rp15.000,00	Rp30.000,00	Cash	Siang
+T-192	2026-02-25	00.17	Tahu Walik	Makanan	2	Rp10.000,00	Rp20.000,00	Qris	Malam
+T-193	2026-02-18	19.09	Japaness	Minuman	1	Rp20.000,00	Rp30.000,00	Cash	Malam
+T-193	2026-02-18	19.09	Jeniper Dingin	Minuman	1	Rp10.000,00	Rp30.000,00	Cash	Malam
+T-194	2026-02-13	15.46	Jeniper Dingin	Minuman	3	Rp10.000,00	Rp30.000,00	Cash	Siang
+T-195	2026-02-15	01.39	Coffe Bir	Minuman	1	Rp15.000,00	Rp15.000,00	Qris	Malam
+T-196	2026-02-11	19.05	Coffe Caramel Dingin	Minuman	1	Rp18.000,00	Rp18.000,00	Qris	Malam
+T-197	2026-02-20	17.23	Es Teh	Minuman	1	Rp8.000,00	Rp16.000,00	Cash	Siang
+T-197	2026-02-20	17.23	Es Teh	Minuman	1	Rp8.000,00	Rp16.000,00	Cash	Siang
+T-198	2026-03-03	18.10	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp23.000,00	Cash	Siang
+T-198	2026-03-03	18.10	Lemon Tea	Minuman	1	Rp8.000,00	Rp23.000,00	Cash	Siang
+T-199	2026-01-31	18.52	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Siang
+T-200	2026-02-17	18.41	Coffer bir	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Siang
+T-201	2026-02-05	18.47	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Siang
+T-202	2026-02-22	20.14	Sanger Dingin	Minuman	1	Rp15.000,00	Rp65.000,00	Qris	Malam
+T-202	2026-02-22	20.14	Taro Dingin	Minuman	1	Rp15.000,00	Rp65.000,00	Qris	Malam
+T-202	2026-02-22	20.14	Japaness	Minuman	1	Rp20.000,00	Rp65.000,00	Qris	Malam
+T-202	2026-02-22	20.14	Lychee Tea	Minuman	1	Rp15.000,00	Rp65.000,00	Qris	Malam
+T-203	2026-02-26	23.16	Lychee Tea	Minuman	1	Rp15.000,00	Rp15.000,00	Qris	Malam
+T-204	2026-03-03	19.49	Jeniper Dingin	Minuman	3	Rp10.000,00	Rp75.000,00	Cash	Malam
+T-204	2026-03-03	19.49	Coffe Bir	Minuman	2	Rp15.000,00	Rp75.000,00	Cash	Malam
+T-204	2026-03-03	19.49	Coffe Bir	Minuman	1	Rp15.000,00	Rp75.000,00	Cash	Malam
+T-205	2026-02-08	23.58	Straca	Minuman	1	Rp18.000,00	Rp24.500,00	Cash	Malam
+T-205	2026-02-08	23.58	Sanger	Minuman	1	Rp6.500,00	Rp24.500,00	Cash	Malam
+T-206	2026-02-07	23.49	Lemon Tea	Minuman	1	Rp8.000,00	Rp8.000,00	Qris	Malam
+T-207	2026-02-04	20.56	The Susu Dingin	Minuman	1	Rp10.000,00	Rp25.000,00	Qris	Malam
+T-207	2026-02-04	20.56	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp25.000,00	Qris	Malam
+T-208	2026-02-28	16.48	Jeniper Dingin	Minuman	1	Rp10.000,00	Rp10.000,00	Cash	Siang
+T-209	2026-02-07	19.33	Coffe Bir	Minuman	1	Rp15.000,00	Rp108.000,00	Qris	Malam
+T-209	2026-02-07	19.33	Sanger Dingin	Minuman	1	Rp15.000,00	Rp108.000,00	Qris	Malam
+T-209	2026-02-07	19.33	Matcha Dingin	Minuman	4	Rp15.000,00	Rp108.000,00	Qris	Malam
+T-209	2026-02-07	19.33	Es Kopi Hazelnut	Minuman	1	Rp18.000,00	Rp108.000,00	Qris	Malam
+T-210	2026-03-02	22.07	Tahu Walik	Makanan	1	Rp10.000,00	Rp20.000,00	Cash	Malam
+T-210	2026-03-02	22.07	Tahu Walik	Makanan	1	Rp10.000,00	Rp20.000,00	Cash	Malam
+T-211	2026-01-31	18.04	Lychee Tea	Minuman	1	Rp15.000,00	Rp15.000,00	Qris	Siang
+T-212	2026-02-28	18.34	Vietnam Drip	Minuman	1	Rp12.000,00	Rp12.000,00	Cash	Siang
+T-213	2026-02-27	21.12	Es Teh	Minuman	1	Rp8.000,00	Rp38.000,00	Cash	Malam
+T-213	2026-02-27	21.12	Coffe Bir	Minuman	2	Rp15.000,00	Rp38.000,00	Cash	Malam
+T-214	2026-02-03	15.25	The Susu Dingin	Minuman	1	Rp10.000,00	Rp10.000,00	Cash	Siang
+T-215	2026-03-03	22.08	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-216	2026-02-25	23.06	Teh Susu	Minuman	2	Rp10.000,00	Rp46.500,00	Cash	Malam
+T-216	2026-02-25	23.06	Sanger	Minuman	1	Rp6.500,00	Rp46.500,00	Cash	Malam
+T-216	2026-02-25	23.06	Espresso	Minuman	1	Rp12.000,00	Rp46.500,00	Cash	Malam
+T-216	2026-02-25	23.06	Lemon Tea	Minuman	1	Rp8.000,00	Rp46.500,00	Cash	Malam
+T-217	2026-01-31	17.24	Coffe Bir	Minuman	3	Rp15.000,00	Rp45.000,00	Cash	Siang
+T-218	2026-02-15	21.44	Teh Susu	Minuman	1	Rp10.000,00	Rp79.000,00	Qris	Malam
+T-218	2026-02-15	21.44	Matcha Dingin	Minuman	1	Rp15.000,00	Rp79.000,00	Qris	Malam
+T-218	2026-02-15	21.44	Es Kopi Hazelnut	Minuman	3	Rp18.000,00	Rp79.000,00	Qris	Malam
+T-219	2026-03-03	15.47	Tahu Walik	Makanan	2	Rp10.000,00	Rp35.000,00	Cash	Siang
+T-219	2026-03-03	15.47	Coffe Bir	Minuman	1	Rp15.000,00	Rp35.000,00	Cash	Siang
+T-220	2026-03-01	16.54	Americano Dingin	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Siang
+T-221	2026-02-04	00.15	Tahu Walik	Makanan	1	Rp10.000,00	Rp10.000,00	Cash	Malam
+T-222	2026-03-02	20.59	Es Teh	Minuman	1	Rp8.000,00	Rp23.000,00	Cash	Malam
+T-222	2026-03-02	20.59	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp23.000,00	Cash	Malam
+T-223	2026-02-26	20.59	Jeniper Dingin	Minuman	4	Rp10.000,00	Rp100.000,00	Cash	Malam
+T-223	2026-02-26	20.59	Coffe Bir	Minuman	4	Rp15.000,00	Rp100.000,00	Cash	Malam
+T-224	2026-02-10	23.16	Coffe Bir	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-225	2026-02-15	17.28	Es Teh	Minuman	1	Rp8.000,00	Rp8.000,00	Qris	Siang
+T-226	2026-03-02	15.42	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp55.000,00	Qris	Siang
+T-226	2026-03-02	15.42	Es Teh	Minuman	1	Rp8.000,00	Rp55.000,00	Qris	Siang
+T-226	2026-03-02	15.42	Vietnam Drip	Minuman	1	Rp12.000,00	Rp55.000,00	Qris	Siang
+T-226	2026-03-02	15.42	Jeniper Dingin	Minuman	1	Rp10.000,00	Rp55.000,00	Qris	Siang
+T-226	2026-03-02	15.42	Jeniper Dingin	Minuman	1	Rp10.000,00	Rp55.000,00	Qris	Siang
+T-227	2026-02-13	23.31	Mix Plate	Makanan	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-228	2026-02-14	15.00	Jeniper Dingin	Minuman	1	Rp10.000,00	Rp22.000,00	Cash	Siang
+T-228	2026-02-14	15.00	Espresso	Minuman	1	Rp12.000,00	Rp22.000,00	Cash	Siang
+T-229	2026-03-04	15.07	Coffer bir	Minuman	2	Rp15.000,00	Rp60.000,00	Cash	Siang
+T-229	2026-03-04	15.07	Mix Plate	Makanan	1	Rp15.000,00	Rp60.000,00	Cash	Siang
+T-229	2026-03-04	15.07	Matcha Dingin	Minuman	1	Rp15.000,00	Rp60.000,00	Cash	Siang
+T-230	2026-02-16	20.57	Espresso	Minuman	1	Rp12.000,00	Rp12.000,00	Qris	Malam
+T-231	2026-02-12	01.06	Matcha Dingin	Minuman	2	Rp15.000,00	Rp30.000,00	Cash	Malam
+T-232	2026-02-06	18.55	The Susu Dingin	Minuman	2	Rp10.000,00	Rp88.000,00	Cash	Siang
+T-232	2026-02-06	18.55	Sanger Dingin	Minuman	1	Rp15.000,00	Rp88.000,00	Cash	Siang
+T-232	2026-02-06	18.55	Coffe Bir	Minuman	1	Rp15.000,00	Rp88.000,00	Cash	Siang
+T-232	2026-02-06	18.55	Sanger Dingin	Minuman	2	Rp15.000,00	Rp88.000,00	Cash	Siang
+T-232	2026-02-06	18.55	Lemon Tea	Minuman	1	Rp8.000,00	Rp88.000,00	Cash	Siang
+T-233	2026-02-03	21.55	Coffe Bir	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-234	2026-02-19	19.52	Es Kopi Sus Gula Aren	Minuman	2	Rp15.000,00	Rp90.000,00	Qris	Malam
+T-234	2026-02-19	19.52	Tahu Walik	Makanan	3	Rp10.000,00	Rp90.000,00	Qris	Malam
+T-234	2026-02-19	19.52	Sanger Dingin	Minuman	1	Rp15.000,00	Rp90.000,00	Qris	Malam
+T-234	2026-02-19	19.52	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp90.000,00	Qris	Malam
+T-235	2026-03-03	20.01	Espresso	Minuman	1	Rp12.000,00	Rp12.000,00	Cash	Malam
+T-236	2026-02-13	15.06	Coffe Bir	Minuman	2	Rp15.000,00	Rp85.000,00	Cash	Siang
+T-236	2026-02-13	15.06	Japaness	Minuman	1	Rp20.000,00	Rp85.000,00	Cash	Siang
+T-236	2026-02-13	15.06	Coffe Bir	Minuman	1	Rp15.000,00	Rp85.000,00	Cash	Siang
+T-236	2026-02-13	15.06	Teh Susu	Minuman	1	Rp10.000,00	Rp85.000,00	Cash	Siang
+T-236	2026-02-13	15.06	Jeniper Dingin	Minuman	1	Rp10.000,00	Rp85.000,00	Cash	Siang
+T-237	2026-02-09	20.27	Es Teh	Minuman	2	Rp8.000,00	Rp46.000,00	Cash	Malam
+T-237	2026-02-09	20.27	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp46.000,00	Cash	Malam
+T-237	2026-02-09	20.27	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp46.000,00	Cash	Malam
+T-238	2026-02-23	20.25	Matcha Dingin	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-239	2026-02-21	01.47	Straca	Minuman	1	Rp18.000,00	Rp33.000,00	Qris	Malam
+T-239	2026-02-21	01.47	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp33.000,00	Qris	Malam
+T-240	2026-02-24	00.38	Coffe Bir	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-241	2026-02-27	17.42	Taro Dingin	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Siang
+T-242	2026-02-12	01.19	Sanger Dingin	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-243	2026-02-27	00.54	Coffe Bir	Minuman	2	Rp15.000,00	Rp30.000,00	Cash	Malam
+T-244	2026-02-21	22.25	Es Teh	Minuman	2	Rp8.000,00	Rp36.000,00	Cash	Malam
+T-244	2026-02-21	22.25	Tahu Walik	Makanan	2	Rp10.000,00	Rp36.000,00	Cash	Malam
+T-245	2026-02-24	18.11	Es Teh	Minuman	1	Rp8.000,00	Rp8.000,00	Qris	Siang
+T-246	2026-02-04	22.08	Es Teh	Minuman	1	Rp8.000,00	Rp38.000,00	Qris	Malam
+T-246	2026-02-04	22.08	Teh Susu	Minuman	3	Rp10.000,00	Rp38.000,00	Qris	Malam
+T-247	2026-03-01	21.53	Coffe Bir	Minuman	2	Rp15.000,00	Rp105.000,00	Qris	Malam
+T-247	2026-03-01	21.53	Sanger Dingin	Minuman	2	Rp15.000,00	Rp105.000,00	Qris	Malam
+T-247	2026-03-01	21.53	Lychee Tea	Minuman	1	Rp15.000,00	Rp105.000,00	Qris	Malam
+T-247	2026-03-01	21.53	Coffe Bir	Minuman	2	Rp15.000,00	Rp105.000,00	Qris	Malam
+T-248	2026-02-12	19.28	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp30.000,00	Cash	Malam
+T-248	2026-02-12	19.28	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp30.000,00	Cash	Malam
+T-249	2026-02-11	21.44	Sanger Dingin	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-250	2026-02-26	21.03	Coffe Bir	Minuman	2	Rp15.000,00	Rp30.000,00	Cash	Malam
+T-251	2026-01-29	00.24	Vietnam Drip	Minuman	1	Rp12.000,00	Rp42.000,00	Cash	Malam
+T-251	2026-01-29	00.24	Es Kopi Susu Gula Aren	Minuman	2	Rp15.000,00	Rp42.000,00	Cash	Malam
+T-252	2026-03-03	23.51	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp45.000,00	Cash	Malam
+T-252	2026-03-03	23.51	Sanger Dingin	Minuman	1	Rp15.000,00	Rp45.000,00	Cash	Malam
+T-252	2026-03-03	23.51	Coffe Bir	Minuman	1	Rp15.000,00	Rp45.000,00	Cash	Malam
+T-253	2026-02-07	22.58	Straca	Minuman	1	Rp18.000,00	Rp18.000,00	Cash	Malam
+T-254	2026-01-29	16.41	Coffe Caramel Dingin	Minuman	1	Rp18.000,00	Rp18.000,00	Cash	Siang
+T-255	2026-02-17	18.29	Japaness	Minuman	1	Rp20.000,00	Rp20.000,00	Cash	Siang
+T-256	2026-02-23	19.53	Tahu Walik	Makanan	1	Rp10.000,00	Rp45.000,00	Cash	Malam
+T-256	2026-02-23	19.53	Matcha Dingin	Minuman	1	Rp15.000,00	Rp45.000,00	Cash	Malam
+T-256	2026-02-23	19.53	Teh Susu	Minuman	2	Rp10.000,00	Rp45.000,00	Cash	Malam
+T-257	2026-01-29	18.12	Straca	Minuman	1	Rp18.000,00	Rp33.000,00	Qris	Siang
+T-257	2026-01-29	18.12	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp33.000,00	Qris	Siang
+T-258	2026-02-26	19.49	Americano Dingin	Minuman	1	Rp15.000,00	Rp103.000,00	Cash	Malam
+T-258	2026-02-26	19.49	The Susu	Minuman	1	Rp10.000,00	Rp103.000,00	Cash	Malam
+T-258	2026-02-26	19.49	Es Kopi Hazelnut	Minuman	1	Rp18.000,00	Rp103.000,00	Cash	Malam
+T-258	2026-02-26	19.49	Japaness	Minuman	3	Rp20.000,00	Rp103.000,00	Cash	Malam
+T-259	2026-02-21	21.45	Americano Dingin	Minuman	1	Rp15.000,00	Rp21.500,00	Cash	Malam
+T-259	2026-02-21	21.45	Sanger	Minuman	1	Rp6.500,00	Rp21.500,00	Cash	Malam
+T-260	2026-02-04	00.50	Matcha Dingin	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-261	2026-02-18	15.54	Coffe Bir	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Siang
+T-262	2026-02-26	17.27	Taro Dingin	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Siang
+T-263	2026-03-03	22.29	Es Kopi Hazelnut	Minuman	2	Rp18.000,00	Rp66.000,00	Cash	Malam
+T-263	2026-03-03	22.29	Es Kopi Susu Gula Aren	Minuman	2	Rp15.000,00	Rp66.000,00	Cash	Malam
+T-264	2026-02-25	18.48	Straca	Minuman	1	Rp18.000,00	Rp18.000,00	Cash	Siang
+T-265	2026-02-17	17.31	The Susu Dingin	Minuman	1	Rp10.000,00	Rp10.000,00	Cash	Siang
+T-266	2026-02-14	23.00	Sanger Dingin	Minuman	1	Rp15.000,00	Rp60.000,00	Cash	Malam
+T-266	2026-02-14	23.00	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp60.000,00	Cash	Malam
+T-266	2026-02-14	23.00	Coffe Bir	Minuman	1	Rp15.000,00	Rp60.000,00	Cash	Malam
+T-266	2026-02-14	23.00	Matcha Dingin	Minuman	1	Rp15.000,00	Rp60.000,00	Cash	Malam
+T-267	2026-02-15	18.25	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Siang
+T-268	2026-03-02	20.27	Matcha Dingin	Minuman	1	Rp15.000,00	Rp30.000,00	Qris	Malam
+T-268	2026-03-02	20.27	Coffe Bir	Minuman	1	Rp15.000,00	Rp30.000,00	Qris	Malam
+T-269	2026-02-09	20.07	The Susu	Minuman	1	Rp10.000,00	Rp10.000,00	Cash	Malam
+T-270	2026-02-27	19.46	Japaness	Minuman	1	Rp20.000,00	Rp20.000,00	Cash	Malam
+T-271	2026-02-09	19.14	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp79.000,00	Cash	Malam
+T-271	2026-02-09	19.14	Es Teh	Minuman	3	Rp8.000,00	Rp79.000,00	Cash	Malam
+T-271	2026-02-09	19.14	Jeniper Dingin	Minuman	1	Rp10.000,00	Rp79.000,00	Cash	Malam
+T-271	2026-02-09	19.14	Tahu Walik	Makanan	2	Rp10.000,00	Rp79.000,00	Cash	Malam
+T-271	2026-02-09	19.14	Tahu Walik	Makanan	1	Rp10.000,00	Rp79.000,00	Cash	Malam
+T-272	2026-02-15	22.30	Sanger Dingin	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-273	2026-02-27	16.52	Taro Dingin	Minuman	2	Rp15.000,00	Rp98.000,00	Cash	Siang
+T-273	2026-02-27	16.52	Americano Dingin	Minuman	3	Rp15.000,00	Rp98.000,00	Cash	Siang
+T-273	2026-02-27	16.52	Es Teh	Minuman	1	Rp8.000,00	Rp98.000,00	Cash	Siang
+T-273	2026-02-27	16.52	Sanger Dingin	Minuman	1	Rp15.000,00	Rp98.000,00	Cash	Siang
+T-274	2026-02-23	00.38	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp30.000,00	Qris	Malam
+T-274	2026-02-23	00.38	Taro Dingin	Minuman	1	Rp15.000,00	Rp30.000,00	Qris	Malam
+T-275	2026-02-24	19.36	Americano Dingin	Minuman	1	Rp15.000,00	Rp45.000,00	Cash	Malam
+T-275	2026-02-24	19.36	Es Kopi Hazelnut	Minuman	1	Rp18.000,00	Rp45.000,00	Cash	Malam
+T-275	2026-02-24	19.36	Vietnam Drip	Minuman	1	Rp12.000,00	Rp45.000,00	Cash	Malam
+T-276	2026-02-08	23.04	Coffe Bir	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-277	2026-01-30	18.18	Es Teh	Minuman	1	Rp8.000,00	Rp53.000,00	Cash	Siang
+T-277	2026-01-30	18.18	Coffe Bir	Minuman	3	Rp15.000,00	Rp53.000,00	Cash	Siang
+T-278	2026-02-09	21.07	Es Teh	Minuman	1	Rp8.000,00	Rp33.000,00	Cash	Malam
+T-278	2026-02-09	21.07	Mix Plate	Makanan	1	Rp15.000,00	Rp33.000,00	Cash	Malam
+T-278	2026-02-09	21.07	The Susu Dingin	Minuman	1	Rp10.000,00	Rp33.000,00	Cash	Malam
+T-279	2026-02-15	22.07	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp45.000,00	Cash	Malam
+T-279	2026-02-15	22.07	Coffe Bir	Minuman	1	Rp15.000,00	Rp45.000,00	Cash	Malam
+T-279	2026-02-15	22.07	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp45.000,00	Cash	Malam
+T-280	2026-02-17	00.16	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp76.000,00	Cash	Malam
+T-280	2026-02-17	00.16	Es Teh	Minuman	2	Rp8.000,00	Rp76.000,00	Cash	Malam
+T-280	2026-02-17	00.16	Lychee Tea	Minuman	2	Rp15.000,00	Rp76.000,00	Cash	Malam
+T-280	2026-02-17	00.16	Americano Dingin	Minuman	1	Rp15.000,00	Rp76.000,00	Cash	Malam
+T-281	2026-02-08	22.33	Lemon Tea	Minuman	1	Rp8.000,00	Rp38.000,00	Cash	Malam
+T-281	2026-02-08	22.33	Sanger Dingin	Minuman	1	Rp15.000,00	Rp38.000,00	Cash	Malam
+T-281	2026-02-08	22.33	Americano Dingin	Minuman	1	Rp15.000,00	Rp38.000,00	Cash	Malam
+T-282	2026-02-18	20.42	Sanger Dingin	Minuman	1	Rp15.000,00	Rp15.000,00	Cash	Malam
+T-283	2026-02-22	23.02	Es Kopi Susu Gula Aren	Minuman	3	Rp15.000,00	Rp60.000,00	Cash	Malam
+T-283	2026-02-22	23.02	Es Kopi Susu Gula Aren	Minuman	1	Rp15.000,00	Rp60.000,00	Cash	Malam
+T-284	2026-01-28	01.55	Coffe Bir	Minuman	1	Rp15.000,00	Rp45.000,00	Cash	Malam
+T-284	2026-01-28	01.55	Sanger Dingin	Minuman	2	Rp15.000,00	Rp45.000,00	Cash	Malam
+T-285	2026-01-31	18.17	Lemon Tea	Minuman	1	Rp8.000,00	Rp23.000,00	Cash	Siang
+T-285	2026-01-31	18.17	Coffe Bir	Minuman	1	Rp15.000,00	Rp23.000,00	Cash	Siang
+T-286	2026-02-12	17.19	Matcha Dingin	Minuman	1	Rp15.000,00	Rp75.000,00	Cash	Siang
+T-286	2026-02-12	17.19	Jeniper Dingin	Minuman	2	Rp10.000,00	Rp75.000,00	Cash	Siang
+T-286	2026-02-12	17.19	Teh Susu	Minuman	1	Rp10.000,00	Rp75.000,00	Cash	Siang
+T-286	2026-02-12	17.19	Mix Plate	Makanan	1	Rp15.000,00	Rp75.000,00	Cash	Siang
+T-286	2026-02-12	17.19	Coffe Bir	Minuman	1	Rp15.000,00	Rp75.000,00	Cash	Siang

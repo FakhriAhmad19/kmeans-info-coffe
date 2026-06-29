@@ -1,0 +1,300 @@
+:root {
+    --coffee-espresso: #2B1B17;
+    --coffee-mocha: #4E342E;
+    --coffee-caramel: #8D6E63;
+    --coffee-latte: #D7CCC8;
+    --coffee-cream: #FDFBF7;
+    --coffee-text: #3E2723;
+    --coffee-gold: #D4AF37;
+}
+
+body {
+    background-color: var(--coffee-cream);
+    color: var(--coffee-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: var(--coffee-espresso);
+    height: 100vh;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    z-index: 100;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .nav {
+    flex-grow: 1;
+    display: flex !important;
+    flex-direction: column;
+}
+
+.sidebar .brand {
+    padding: 24px 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--coffee-latte);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-left: 4px solid transparent;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-left-color: var(--coffee-caramel);
+}
+
+/* Main Content Styling */
+.main-content {
+    margin-left: 250px;
+    padding: 30px;
+    min-height: 100vh;
+}
+
+/* Card Styling */
+.card-custom {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #E0D4C3;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(62, 39, 35, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(62, 39, 35, 0.08);
+}
+
+.card-header-custom {
+    background-color: transparent;
+    border-bottom: 1px solid #E0D4C3;
+    padding: 16px 20px;
+    font-weight: bold;
+    color: var(--coffee-espresso);
+    font-size: 1.1rem;
+}
+
+/* Metric Card Colors */
+.metric-card {
+    position: relative;
+    overflow: hidden;
+    border-left: 5px solid var(--coffee-caramel);
+}
+
+.metric-icon {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    font-size: 3rem;
+    color: rgba(141, 110, 99, 0.12);
+}
+
+/* Button Styling */
+.btn-coffee {
+    background-color: var(--coffee-mocha);
+    color: #fff;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.btn-coffee:hover {
+    background-color: var(--coffee-espresso);
+    color: #fff;
+}
+
+.btn-coffee-outline {
+    border: 1.5px solid var(--coffee-mocha);
+    color: var(--coffee-mocha);
+    background-color: transparent;
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+.btn-coffee-outline:hover {
+    background-color: var(--coffee-mocha);
+    color: #fff;
+}
+
+.btn-coffee-secondary {
+    background-color: var(--coffee-latte);
+    color: var(--coffee-text);
+    border: none;
+}
+
+.btn-coffee-secondary:hover {
+    background-color: #C7BCA9;
+    color: var(--coffee-text);
+}
+
+/* Table Styling */
+.table-custom {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+.table-custom th {
+    border: none;
+    color: var(--coffee-caramel);
+    font-weight: 600;
+    padding: 12px 16px;
+}
+
+.table-custom tbody tr {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(62, 39, 35, 0.02);
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.table-custom tbody tr:hover {
+    transform: scale(1.005);
+    background-color: #FAF6F0;
+}
+
+.table-custom td {
+    padding: 16px;
+    border-top: 1px solid #F3EDE4;
+    border-bottom: 1px solid #F3EDE4;
+}
+
+.table-custom td:first-child {
+    border-left: 1px solid #F3EDE4;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.table-custom td:last-child {
+    border-right: 1px solid #F3EDE4;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Badge Coffee theme */
+.badge-coffee-high {
+    background-color: var(--coffee-mocha);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.badge-coffee-medium {
+    background-color: var(--coffee-caramel);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.badge-coffee-low {
+    background-color: var(--coffee-latte);
+    color: var(--coffee-text);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+/* Header Navigation */
+.top-navbar {
+    background: #fff;
+    border-bottom: 1px solid #E0D4C3;
+    padding: 15px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Pagination style */
+.pagination {
+    margin-bottom: 0;
+    gap: 5px;
+}
+.pagination .page-link {
+    color: var(--coffee-text);
+    background-color: #fff;
+    border: 1px solid #E0D4C3;
+    border-radius: 6px !important;
+    padding: 6px 12px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+.pagination .page-link:hover {
+    color: #fff;
+    background-color: var(--coffee-caramel);
+    border-color: var(--coffee-caramel);
+    box-shadow: 0 4px 8px rgba(141, 110, 99, 0.25);
+}
+.pagination .page-item.active .page-link {
+    background-color: var(--coffee-mocha);
+    border-color: var(--coffee-mocha);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(78, 52, 46, 0.25);
+}
+.pagination .page-item.disabled .page-link {
+    color: #a0a0a0;
+    background-color: #FAF6F0;
+    border-color: #E8E2D8;
+}
+.pagination .page-link:focus {
+    box-shadow: 0 0 0 0.25rem rgba(78, 52, 46, 0.15);
+}
+
+/* Responsive / Mobile Styling */
+@media (max-width: 991.98px) {
+    .sidebar {
+        left: -250px;
+        transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .sidebar.show {
+        left: 0;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 16px;
+    }
+
+    .top-navbar {
+        padding: 12px 16px;
+    }
+
+    /* Overlay backdrop */
+    .sidebar-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(62, 39, 35, 0.4);
+        backdrop-filter: blur(2px);
+        z-index: 99;
+    }
+
+    .sidebar-overlay.show {
+        display: block;
+    }
+}
