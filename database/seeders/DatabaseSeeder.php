@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
             ['username' => 'admin'],
             [
                 'name' => 'Admin Info Coffee',
-                'email' => 'admin@infocoffee.com',
+                'email' => 'admin@gmail.com',
                 'password' => Hash::make('password'),
             ]
         );

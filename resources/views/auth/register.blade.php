@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Info Coffee | Masuk Sistem</title>
+    <title>Info Coffee | Registrasi Akun</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <style>
@@ -48,7 +48,7 @@
         }
 
         .image-section {
-            background: url("{{ asset('images/suasana_1.jpg') }}") no-repeat center center !important;
+            background: url("{{ asset('images/suasana_2.jpg') }}") no-repeat center center !important;
             background-size: cover !important;
             position: relative !important;
             height: 100vh !important;
@@ -94,7 +94,7 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
         .btn-coffee {
@@ -145,8 +145,8 @@
                     <div class="mb-4">
                         <span class="badge bg-warning text-dark px-3 py-2 rounded-pill fw-semibold text-uppercase fs-7">Info Coffee Shop</span>
                     </div>
-                    <h1 class="fw-bold mb-3 display-5">Pola Pembelian Pelanggan & Analisis Data</h1>
-                    <p class="text-white-50 mb-0 fs-5">Selamat datang di sistem manajemen klasterisasi pelanggan Info Coffee berbasis K-Means Clustering.</p>
+                    <h1 class="fw-bold mb-3 display-5">Bergabung dengan Coffee Club Analytics</h1>
+                    <p class="text-white-50 mb-0 fs-5">Daftarkan akun administrator baru untuk mengelola transaksi kedai dan segmentasi pelanggan.</p>
                 </div>
             </div>
 
@@ -158,17 +158,11 @@
                         <span>INFO COFFEE</span>
                     </div>
 
-                    <h3 class="mb-2 fw-bold text-dark"><i class="bi bi-box-arrow-in-right"></i> Masuk</h3>
-                    <p class="text-muted mb-4 fs-6">Gunakan akun administrator Anda untuk mengakses dasbor analitik kedai.</p>
-
-                    @if(session('success'))
-                        <div class="alert alert-success border-0 shadow-sm mb-3" style="background-color: #E8F5E9; color: #1B5E20;">
-                            <i class="bi bi-check-circle-fill me-2"></i> {{ session('success') }}
-                        </div>
-                    @endif
+                    <h3 class="mb-2 fw-bold text-dark"><i class="bi bi-person-plus"></i> Registrasi Akun</h3>
+                    <p class="text-muted mb-4 small">Lengkapi formulir di bawah ini untuk membuat akun baru.</p>
 
                     @if($errors->any())
-                        <div class="alert alert-danger border-0 shadow-sm mb-3" style="background-color: #FFEBEE; color: #C62828; font-size: 0.9rem;">
+                        <div class="alert alert-danger border-0 shadow-sm mb-3" style="background-color: #FFEBEE; color: #C62828; font-size: 0.85rem;">
                             <i class="bi bi-exclamation-triangle-fill me-2"></i>
                             <ul class="mb-0 ps-3">
                                 @foreach($errors->all() as $error)
@@ -178,37 +172,53 @@
                         </div>
                     @endif
 
-                    <form action="{{ route('login.post') }}" method="POST">
+                    <form action="{{ route('register.post') }}" method="POST">
                         @csrf
                         <div class="mb-3">
-                            <label for="email" class="form-label fw-semibold text-secondary small">Email</label>
+                            <label for="name" class="form-label fw-semibold text-secondary small mb-1">Nama Lengkap</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light border-end-0 text-muted"><i class="bi bi-person"></i></span>
+                                <input type="text" class="form-control border-start-0 ps-0 bg-light" id="name" name="name" value="{{ old('name') }}" placeholder="Masukkan nama lengkap" required autofocus>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="username" class="form-label fw-semibold text-secondary small mb-1">Username</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light border-end-0 text-muted"><i class="bi bi-person-badge"></i></span>
+                                <input type="text" class="form-control border-start-0 ps-0 bg-light" id="username" name="username" value="{{ old('username') }}" placeholder="Buat username unik" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-semibold text-secondary small mb-1">Alamat Email</label>
                             <div class="input-group">
                                 <span class="input-group-text bg-light border-end-0 text-muted"><i class="bi bi-envelope"></i></span>
-                                <input type="email" class="form-control border-start-0 ps-0 bg-light" id="email" name="email" value="{{ old('email') }}" placeholder="Masukkan email terdaftar" required autofocus>
+                                <input type="email" class="form-control border-start-0 ps-0 bg-light" id="email" name="email" value="{{ old('email') }}" placeholder="Contoh: admin@infocoffee.com" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label fw-semibold text-secondary small mb-1">Password</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light border-end-0 text-muted"><i class="bi bi-lock"></i></span>
+                                <input type="password" class="form-control border-start-0 ps-0 bg-light" id="password" name="password" placeholder="Min 6 karakter" required>
                             </div>
                         </div>
                         <div class="mb-4">
-                            <label for="password" class="form-label fw-semibold text-secondary small">Password</label>
+                            <label for="password_confirmation" class="form-label fw-semibold text-secondary small mb-1">Konfirmasi Password</label>
                             <div class="input-group">
-                                <span class="input-group-text bg-light border-end-0 text-muted"><i class="bi bi-lock"></i></span>
-                                <input type="password" class="form-control border-start-0 ps-0 bg-light" id="password" name="password" placeholder="Masukkan password" required>
+                                <span class="input-group-text bg-light border-end-0 text-muted"><i class="bi bi-lock-fill"></i></span>
+                                <input type="password" class="form-control border-start-0 ps-0 bg-light" id="password_confirmation" name="password_confirmation" placeholder="Ulangi password" required>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-between align-items-center mb-4">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="remember" name="remember">
-                                <label class="form-check-label text-muted small" for="remember">Ingat Saya</label>
-                            </div>
-                            <a href="{{ route('password.request') }}" class="text-secondary small fw-semibold text-decoration-none">Lupa password?</a>
-                        </div>
-                        <button type="submit" class="btn btn-coffee rounded-3 py-3 fw-bold text-uppercase tracking-wide">MASUK KE DASBOR</button>
+                        
+                        <button type="submit" class="btn btn-coffee rounded-3 py-3 fw-bold text-uppercase tracking-wide">DAFTAR SEKARANG</button>
+                        
                         <div class="mt-3 text-center">
-                            <span class="text-muted small">Belum punya akun?</span>
-                            <a href="{{ route('register') }}" class="small fw-bold text-decoration-none ms-1" style="color: var(--coffee-mocha);">Daftar</a>
+                            <span class="text-muted small">Sudah memiliki akun?</span>
+                            <a href="{{ route('login') }}" class="small fw-bold text-decoration-none ms-1" style="color: var(--coffee-mocha);">Masuk</a>
                         </div>
                     </form>
                     
-                    <div class="mt-5 pt-4 border-top text-center text-muted" style="font-size: 0.85rem;">
+                    <div class="mt-4 pt-3 border-top text-center text-muted" style="font-size: 0.8rem;">
                         Info Coffee &copy; 2026. All rights reserved.
                     </div>
                 </div>
