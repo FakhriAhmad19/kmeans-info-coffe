@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Info Coffee | K-Means Customer Segmentation</title>
     <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-icons.min.css') }}">
     <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ asset('js/chart.umd.js') }}"></script>
     <!-- Coffee Theme Stylesheet -->
     <link rel="stylesheet" href="{{ asset('css/coffee-theme.css') }}">
 </head>
@@ -18,7 +18,7 @@
     <!-- Sidebar -->
     <div class="sidebar">
         <div class="brand">
-            <i class="bi bi-cup-hot-fill text-warning"></i>
+            <img src="{{ asset('images/logo_coffee.png') }}" alt="Logo" class="rounded-circle me-2" style="width: 35px; height: 35px; object-fit: cover;">
             <span>INFO COFFEE</span>
         </div>
         <div class="nav flex-column mt-3">
@@ -103,7 +103,7 @@
     </div>
 
     <!-- Bootstrap 5 JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 
     <!-- Sidebar Responsive Toggle Script -->
     <script>

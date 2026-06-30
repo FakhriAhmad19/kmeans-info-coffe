@@ -2,10 +2,61 @@
 
 @section('content')
 <div class="container-fluid p-0">
-    <div class="d-flex justify-content-between align-items-center mb-4">
-        <div>
-            <h2 class="fw-bold text-dark mb-1">Coffee Club Analytics Dashboard</h2>
-            <p class="text-muted mb-0">Overview of Info Coffee sales metrics and K-Means segmentation results.</p>
+    <div class="row align-items-center mb-4 g-3">
+        <!-- Left Column: Title and Logo -->
+        <div class="col-md-7 col-lg-7">
+            <div class="d-flex align-items-center gap-3">
+                <img src="{{ asset('images/logo_coffee.png') }}" alt="Logo" class="rounded-circle" style="width: 110px; height: 110px; object-fit: cover; border: 3px solid var(--coffee-espresso); flex-shrink: 0;">
+                <div>
+                    <h2 class="fw-bold text-dark mb-1" style="font-size: 2.1rem; line-height: 1.35;">Segmentasi Pelanggan Berdasarkan Pola Pembelian di Info Coffee Menggunakan Metode K-Means Clustering</h2>
+                    <p class="text-muted mb-0 fs-7">Overview of Info Coffee sales metrics and K-Means segmentation results.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Right Column: Gallery/Suasana Widget -->
+        <div class="col-md-5 col-lg-5">
+            <div id="coffeeCarouselHeader" class="carousel slide rounded-3 overflow-hidden shadow-sm" data-bs-ride="carousel" style="border: 1px solid #E0D4C3;">
+                <div class="carousel-indicators" style="margin-bottom: 0.25rem;">
+                    <button type="button" data-bs-target="#coffeeCarouselHeader" data-bs-slide-to="0" class="active" aria-current="true" style="width: 6px; height: 6px; border-radius: 50%;"></button>
+                    <button type="button" data-bs-target="#coffeeCarouselHeader" data-bs-slide-to="1" style="width: 6px; height: 6px; border-radius: 50%;"></button>
+                    <button type="button" data-bs-target="#coffeeCarouselHeader" data-bs-slide-to="2" style="width: 6px; height: 6px; border-radius: 50%;"></button>
+                    <button type="button" data-bs-target="#coffeeCarouselHeader" data-bs-slide-to="3" style="width: 6px; height: 6px; border-radius: 50%;"></button>
+                </div>
+                <div class="carousel-inner" style="height: 200px;">
+                    <div class="carousel-item active h-100">
+                        <img src="{{ asset('images/suasana_1.jpg') }}" class="d-block w-100 h-100 object-fit-cover" alt="Suasana Malam Info Coffee">
+                        <div class="carousel-caption p-2 bg-dark bg-opacity-50 rounded" style="font-size: 0.8rem; bottom: 10px; left: 10%; right: 10%;">
+                            <span class="fw-semibold">Area Outdoor Malam</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="{{ asset('images/suasana_2.jpg') }}" class="d-block w-100 h-100 object-fit-cover" alt="Bar Info Coffee">
+                        <div class="carousel-caption p-2 bg-dark bg-opacity-50 rounded" style="font-size: 0.8rem; bottom: 10px; left: 10%; right: 10%;">
+                            <span class="fw-semibold">Interior Bar & Pelanggan</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="{{ asset('images/sanger.jpg') }}" class="d-block w-100 h-100 object-fit-cover" alt="Kopi Sanger Dingin">
+                        <div class="carousel-caption p-2 bg-dark bg-opacity-50 rounded" style="font-size: 0.8rem; bottom: 10px; left: 10%; right: 10%;">
+                            <span class="fw-semibold">Kopi Sanger Dingin Khas</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="{{ asset('images/v60.jpg') }}" class="d-block w-100 h-100 object-fit-cover" alt="V60 Drip Coffee">
+                        <div class="carousel-caption p-2 bg-dark bg-opacity-50 rounded" style="font-size: 0.8rem; bottom: 10px; left: 10%; right: 10%;">
+                            <span class="fw-semibold">Proses V60 Manual Brew</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#coffeeCarouselHeader" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="width: 1.5rem; height: 1.5rem;"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#coffeeCarouselHeader" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="width: 1.5rem; height: 1.5rem;"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </div>
 
@@ -195,54 +246,7 @@
                 </div>
             </div>
 
-            <!-- Suasana & Galeri Kedai -->
-            <div class="card card-custom shadow-sm">
-                <div class="card-header-custom"><i class="bi bi-images me-2"></i> Suasana Info Coffee</div>
-                <div class="card-body p-3">
-                    <div id="coffeeCarousel" class="carousel slide rounded-3 overflow-hidden shadow-sm" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#coffeeCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                            <button type="button" data-bs-target="#coffeeCarousel" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#coffeeCarousel" data-bs-slide-to="2"></button>
-                            <button type="button" data-bs-target="#coffeeCarousel" data-bs-slide-to="3"></button>
-                        </div>
-                        <div class="carousel-inner" style="height: 220px;">
-                            <div class="carousel-item active h-100">
-                                <img src="{{ asset('images/suasana_1.jpg') }}" class="d-block w-100 h-100 object-fit-cover" alt="Suasana Malam Info Coffee">
-                                <div class="carousel-caption p-2 bg-dark bg-opacity-50 rounded fs-7 m-2">
-                                    <h6 class="mb-0 fw-bold">Area Outdoor Malam</h6>
-                                </div>
-                            </div>
-                            <div class="carousel-item h-100">
-                                <img src="{{ asset('images/suasana_2.jpg') }}" class="d-block w-100 h-100 object-fit-cover" alt="Bar Info Coffee">
-                                <div class="carousel-caption p-2 bg-dark bg-opacity-50 rounded fs-7 m-2">
-                                    <h6 class="mb-0 fw-bold">Interior Bar & Pelanggan</h6>
-                                </div>
-                            </div>
-                            <div class="carousel-item h-100">
-                                <img src="{{ asset('images/sanger.jpg') }}" class="d-block w-100 h-100 object-fit-cover" alt="Kopi Sanger Dingin">
-                                <div class="carousel-caption p-2 bg-dark bg-opacity-50 rounded fs-7 m-2">
-                                    <h6 class="mb-0 fw-bold">Kopi Sanger Dingin Khas</h6>
-                                </div>
-                            </div>
-                            <div class="carousel-item h-100">
-                                <img src="{{ asset('images/v60.jpg') }}" class="d-block w-100 h-100 object-fit-cover" alt="V60 Drip Coffee">
-                                <div class="carousel-caption p-2 bg-dark bg-opacity-50 rounded fs-7 m-2">
-                                    <h6 class="mb-0 fw-bold">Proses V60 Manual Brew</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#coffeeCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#coffeeCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 </div>

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Info Coffee | Masuk Sistem</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-icons.min.css') }}">
     <style>
         :root {
             --coffee-espresso: #2B1B17;
@@ -48,7 +48,7 @@
         }
 
         .image-section {
-            background: url("{{ asset('images/suasana_1.jpg') }}") no-repeat center center !important;
+            background: url("{{ asset('images/login_bg.jpg') }}") no-repeat center center !important;
             background-size: cover !important;
             position: relative !important;
             height: 100vh !important;
@@ -92,9 +92,12 @@
             font-weight: bold;
             color: var(--coffee-espresso);
             display: flex;
+            flex-direction: column;
             align-items: center;
-            gap: 12px;
+            justify-content: center;
+            gap: 15px;
             margin-bottom: 30px;
+            text-align: center;
         }
 
         .btn-coffee {
@@ -154,7 +157,7 @@
             <div class="col-md-6 form-section bg-white">
                 <div style="max-width: 450px; margin: auto !important; width: 100%; padding: 30px 0;">
                     <div class="brand-header">
-                        <i class="bi bi-cup-hot-fill text-warning"></i>
+                        <img src="{{ asset('images/logo_coffee.png') }}" alt="Logo" class="rounded-circle" style="width: 120px; height: 120px; object-fit: cover; border: 3px solid var(--coffee-espresso);">
                         <span>INFO COFFEE</span>
                     </div>
 
@@ -216,6 +219,6 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 </body>
 </html>
